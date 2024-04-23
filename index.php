@@ -24,8 +24,8 @@
     <tbody>
       <?php foreach ($products as $product): ?>
         <tr>
-          <td><?= $product->name ?></td>
-          <td><?= $product->price ?></td>
+          <td><?php echo $product->name ?></td>
+          <td><?php echo $product->price ?></td>
         </tr>
       <?php endforeach; ?>
     </tbody>
